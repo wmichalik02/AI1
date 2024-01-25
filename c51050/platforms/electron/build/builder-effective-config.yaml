@@ -1,0 +1,16 @@
+directories:
+  output: C:\Users\wika4\Desktop\lab_v\c51050\platforms\electron\build
+  buildResources: C:\Users\wika4\Desktop\lab_v\c51050\platforms\electron\build-res
+  app: C:\Users\wika4\Desktop\lab_v\c51050\platforms\electron\www
+appId: io.cordova.hellocordova
+productName: Pogodynka
+electronVersion: 14.2.9
+electronDownload:
+  version: 14.2.9
+win:
+  icon: installer.png
+  target:
+    - target: nsis
+      arch:
+        - x64
+files: []
