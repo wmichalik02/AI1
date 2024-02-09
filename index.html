@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>To-do List</title>
+  <style>
+    .highlight {
+    background-color:pink;
+}
+  </style>
+</head>
+<body>
+  <!-- Pole wyszukiwarki -->
+  <input type="text" id="searchInput" placeholder="Wyszukaj zadanie...">
+
+  <!-- Lista zadań -->
+  <ul id="taskList">
+    <!-- Tutaj będą dodawane zadania -->
+  </ul>
+
+  <!-- Dodawanie nowych zadań -->
+  <input type="text" id="newTaskInput" placeholder="Do zrobienia...">
+  <input type="datetime-local" id="taskDeadline">
+  <button id="addTaskBtn">Dodaj zadanie</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
