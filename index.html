@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle Map App</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="map-container">
+    <!-- Okno dynamicznej mapy -->
+    <div id="map"></div>
+
+    <!-- Przycisk "Moja lokalizacja" -->
+    <button id="my-location-btn">Moja lokalizacja</button>
+
+    <!-- Przycisk "Pobierz mapę" -->
+    <button id="download-map-btn">Pobierz mapę</button>
+</div>
+
+<div id="puzzle-container">
+    <!-- Przestrzeń z rozsypanymi puzzlami -->
+    <div id="puzzle-board">
+        <!-- Tutaj będą umieszczone poszczególne elementy puzzli -->
+    </div>
+
+    <!-- Przestrzeń do układania puzzli -->
+    <div id="solution-board">
+        <!-- Tutaj będą umieszczane puzzli w trakcie układania -->
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="kod.js"></script>
+</body>
+</html>
